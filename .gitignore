@@ -1,7 +1,26 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
+
+# Exclude build output
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+
+### Maven ###
+target/
+
+### Gradle ###
+.build/
+.gradle/
+
+### Logs ###
+*.log
+
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
 
 ### Eclipse ###
 .apt_generated
@@ -24,6 +43,3 @@ bin/
 
 ### VS Code ###
 .vscode/
-
-### Mac OS ###
-.DS_Store
