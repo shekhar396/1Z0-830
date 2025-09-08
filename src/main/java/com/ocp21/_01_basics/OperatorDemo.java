@@ -64,5 +64,8 @@ public class OperatorDemo {
 
         int assoc = 100 / 10 / 2; // left to right
         System.out.println("100 / 10 / 2 = " + assoc); // 5
+
+
+
     }
 }

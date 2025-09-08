@@ -9,6 +9,10 @@ package com.ocp21._01_basics.q;
 public class Q_Operators {
     public static void main(String[] args) {
         System.out.println("This is a wrapper class for running operators questions.");
+
+        System.out.println();
+        System.out.println("Running Q1_Unary: ");
+        Q1_Unary.main(args);
     }
 }
 
